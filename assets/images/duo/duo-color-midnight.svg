@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="iPhone Duo rear panel in Midnight color, deep blue-black glass back with dual camera, flash and a plain circular logo ring">
+  <title>iPhone Duo — Midnight colorway, back view</title>
+  <defs>
+    <linearGradient id="mBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26344e"/>
+      <stop offset="0.5" stop-color="#16202f"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="mSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mIsland" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2842"/>
+      <stop offset="1" stop-color="#0b111e"/>
+    </linearGradient>
+    <radialGradient id="mRing" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#93a4c4"/>
+      <stop offset="0.55" stop-color="#4a5a7c"/>
+      <stop offset="1" stop-color="#232e46"/>
+    </radialGradient>
+    <radialGradient id="mGlass" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#55688c"/>
+      <stop offset="0.55" stop-color="#16202f"/>
+      <stop offset="1" stop-color="#04060c"/>
+    </radialGradient>
+    <radialGradient id="mFlash" cx="0.4" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#f7f1dc"/>
+      <stop offset="0.6" stop-color="#ddd0a6"/>
+      <stop offset="1" stop-color="#b3a377"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="400" cy="928" rx="240" ry="22" fill="#0f1726" opacity="0.16"/>
+  <ellipse cx="400" cy="926" rx="180" ry="15" fill="#0f1726" opacity="0.12"/>
+
+  <!-- body depth -->
+  <rect x="197" y="95" width="420" height="824" rx="62" fill="#05080f"/>
+  <!-- back panel -->
+  <rect x="190" y="88" width="420" height="824" rx="62" fill="url(#mBody)" stroke="#3c4c6a" stroke-width="1.5"/>
+  <rect x="190" y="88" width="420" height="824" rx="62" fill="url(#mSheen)"/>
+
+  <!-- side buttons -->
+  <rect x="183" y="320" width="7" height="82" rx="3.5" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+  <rect x="183" y="432" width="7" height="54" rx="3.5" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+  <rect x="183" y="506" width="7" height="54" rx="3.5" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+
+  <!-- camera island -->
+  <rect x="222" y="124" width="148" height="148" rx="44" fill="url(#mIsland)" stroke="#35455f" stroke-width="1"/>
+  <rect x="228" y="130" width="136" height="136" rx="39" fill="none" stroke="#465a7c" stroke-width="1" opacity="0.25"/>
+  <circle cx="270" cy="172" r="32" fill="url(#mRing)"/>
+  <circle cx="270" cy="172" r="24" fill="#070b13"/>
+  <circle cx="270" cy="172" r="18" fill="url(#mGlass)"/>
+  <ellipse cx="262" cy="162" rx="6.5" ry="3.8" fill="#ffffff" opacity="0.4" transform="rotate(-25 262 162)"/>
+  <circle cx="322" cy="226" r="32" fill="url(#mRing)"/>
+  <circle cx="322" cy="226" r="24" fill="#070b13"/>
+  <circle cx="322" cy="226" r="18" fill="url(#mGlass)"/>
+  <ellipse cx="314" cy="216" rx="6.5" ry="3.8" fill="#ffffff" opacity="0.4" transform="rotate(-25 314 216)"/>
+  <circle cx="326" cy="156" r="10" fill="url(#mFlash)"/>
+
+  <!-- neutral circular logo ring -->
+  <circle cx="400" cy="560" r="66" fill="none" stroke="#4d5d78" stroke-width="2" opacity="0.25"/>
+  <circle cx="400" cy="560" r="58" fill="none" stroke="#4d5d78" stroke-width="7" opacity="0.95"/>
+</svg>

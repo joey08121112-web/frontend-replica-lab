@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="iPhone Duo foldable phone fully open, front view of the large inner display showing an abstract lock screen at 09:41">
+  <title>iPhone Duo — fully open state</title>
+  <defs>
+    <linearGradient id="oBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e3d58"/>
+      <stop offset="0.5" stop-color="#1a2332"/>
+      <stop offset="1" stop-color="#0f1727"/>
+    </linearGradient>
+    <linearGradient id="oSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.015"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="oScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1424"/>
+      <stop offset="0.6" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#04060c"/>
+    </linearGradient>
+    <linearGradient id="oCrease" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <clipPath id="oScrClip">
+      <rect x="116" y="238" width="668" height="724" rx="42"/>
+    </clipPath>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="450" cy="1002" rx="390" ry="22" fill="#0f1726" opacity="0.15"/>
+  <ellipse cx="450" cy="1000" rx="300" ry="16" fill="#0f1726" opacity="0.1"/>
+
+  <!-- body depth (5.2 mm open) -->
+  <rect x="98" y="220" width="720" height="776" rx="60" fill="#060a12"/>
+  <!-- body -->
+  <rect x="90" y="212" width="720" height="776" rx="60" fill="url(#oBody)" stroke="#3c4c6a" stroke-width="1.5"/>
+  <rect x="90" y="212" width="720" height="776" rx="60" fill="url(#oSheen)"/>
+
+  <!-- inner display (7.6") -->
+  <rect x="116" y="238" width="668" height="724" rx="42" fill="url(#oScreen)"/>
+  <rect x="117" y="239" width="666" height="722" rx="41" fill="none" stroke="#223050" stroke-width="1" opacity="0.5"/>
+  <circle cx="450" cy="264" r="7" fill="#02040a" stroke="#1a2436" stroke-width="1"/>
+
+  <!-- fold crease -->
+  <rect x="446" y="238" width="8" height="724" fill="url(#oCrease)"/>
+  <rect x="445" y="238" width="1.5" height="724" fill="#000000" opacity="0.22"/>
+  <rect x="453.5" y="238" width="1.5" height="724" fill="#000000" opacity="0.22"/>
+
+  <g clip-path="url(#oScrClip)">
+    <!-- wallpaper stars -->
+    <circle cx="220" cy="330" r="1.6" fill="#cfe0ff" opacity="0.45"/>
+    <circle cx="330" cy="290" r="1.2" fill="#cfe0ff" opacity="0.3"/>
+    <circle cx="288" cy="392" r="1.2" fill="#cfe0ff" opacity="0.25"/>
+    <circle cx="560" cy="308" r="1.5" fill="#cfe0ff" opacity="0.4"/>
+    <circle cx="640" cy="376" r="1.2" fill="#cfe0ff" opacity="0.28"/>
+    <circle cx="706" cy="300" r="1.3" fill="#cfe0ff" opacity="0.34"/>
+    <circle cx="392" cy="330" r="1.1" fill="#cfe0ff" opacity="0.22"/>
+    <circle cx="610" cy="440" r="1.1" fill="#cfe0ff" opacity="0.2"/>
+    <circle cx="176" cy="430" r="1.2" fill="#cfe0ff" opacity="0.24"/>
+    <circle cx="748" cy="420" r="1.2" fill="#cfe0ff" opacity="0.24"/>
+    <!-- abstract mountain wallpaper -->
+    <path d="M116,962 L240,802 L358,902 L470,780 L598,894 L700,828 L784,962 Z" fill="#26385c" opacity="0.55"/>
+    <path d="M116,962 L228,866 L342,940 L472,852 L618,962 Z" fill="#1a2947" opacity="0.65"/>
+    <path d="M430,806 L470,780 L512,812 L470,826 Z" fill="#3d5378" opacity="0.5"/>
+    <path d="M198,884 L228,866 L258,888 L228,900 Z" fill="#33486c" opacity="0.5"/>
+  </g>
+
+  <!-- lock screen -->
+  <text x="450" y="422" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" letter-spacing="5" fill="#b7c4dc" opacity="0.9">MON SEP 28</text>
+  <text x="450" y="562" text-anchor="middle" font-family="Arial, sans-serif" font-size="132" font-weight="600" letter-spacing="2" fill="#f3f7ff">09:41</text>
+
+  <rect x="214" y="648" width="472" height="72" rx="20" fill="#ffffff" opacity="0.1"/>
+  <circle cx="250" cy="684" r="16" fill="#ffffff" opacity="0.18"/>
+  <rect x="282" y="668" width="170" height="13" rx="6.5" fill="#dfe7f4" opacity="0.5"/>
+  <rect x="282" y="691" width="112" height="11" rx="5.5" fill="#dfe7f4" opacity="0.28"/>
+  <rect x="214" y="736" width="472" height="72" rx="20" fill="#ffffff" opacity="0.08"/>
+  <circle cx="250" cy="772" r="16" fill="#ffffff" opacity="0.15"/>
+  <rect x="282" y="756" width="150" height="13" rx="6.5" fill="#dfe7f4" opacity="0.4"/>
+  <rect x="282" y="779" width="96" height="11" rx="5.5" fill="#dfe7f4" opacity="0.22"/>
+
+  <circle cx="170" cy="924" r="27" fill="#ffffff" opacity="0.1"/>
+  <rect x="162" y="912" width="16" height="24" rx="5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="730" cy="924" r="27" fill="#ffffff" opacity="0.1"/>
+  <rect x="718" y="916" width="24" height="17" rx="5" fill="#ffffff" opacity="0.45"/>
+  <circle cx="730" cy="924.5" r="3.5" fill="#0c1424"/>
+  <rect x="410" y="940" width="80" height="5" rx="2.5" fill="#ffffff" opacity="0.45"/>
+</svg>

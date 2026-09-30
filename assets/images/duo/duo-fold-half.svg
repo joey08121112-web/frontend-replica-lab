@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="iPhone Duo foldable phone half open at about 110 degrees in a flex video-call pose, hinge visible between the lower call controls and the upper remote video">
+  <title>iPhone Duo — half open (flex mode)</title>
+  <defs>
+    <linearGradient id="hTopFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22304a"/>
+      <stop offset="1" stop-color="#141e33"/>
+    </linearGradient>
+    <linearGradient id="hTopBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a55"/>
+      <stop offset="1" stop-color="#182234"/>
+    </linearGradient>
+    <linearGradient id="hTopScr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2d50"/>
+      <stop offset="1" stop-color="#0c1428"/>
+    </linearGradient>
+    <linearGradient id="hBotScr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1626"/>
+      <stop offset="1" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="hHinge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a6a8c"/>
+      <stop offset="0.3" stop-color="#26314a"/>
+      <stop offset="0.62" stop-color="#4a5a7c"/>
+      <stop offset="1" stop-color="#1c2536"/>
+    </linearGradient>
+    <radialGradient id="hGlow" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#3a5280" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#3a5280" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="hScrBot">
+      <path d="M164,824 L736,824 Q749,824 750,837 L764,931 Q766,946 750,946 L150,946 Q134,946 136,931 L150,837 Q151,824 164,824 Z"/>
+    </clipPath>
+    <clipPath id="hScrTop">
+      <path d="M182,502 L718,502 Q731,502 732,515 L750,781 Q752,796 737,796 L163,796 Q148,796 150,781 L168,515 Q169,502 182,502 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="450" cy="996" rx="390" ry="24" fill="#0f1726" opacity="0.16"/>
+  <ellipse cx="450" cy="993" rx="300" ry="17" fill="#0f1726" opacity="0.1"/>
+
+  <!-- lower half: front thickness rail -->
+  <path d="M104,940 L796,940 L798,956 Q798,982 774,982 L126,982 Q102,982 102,956 Z" fill="#0a101d"/>
+  <!-- lower half: top face -->
+  <path d="M138,806 L762,806 Q782,806 784,822 L800,946 Q802,966 782,966 L118,966 Q98,966 100,946 L116,822 Q118,806 138,806 Z" fill="url(#hTopFace)" stroke="#3c4c6a" stroke-width="1.2"/>
+  <!-- lower half: inner screen (video call UI) -->
+  <path d="M164,824 L736,824 Q749,824 750,837 L764,931 Q766,946 750,946 L150,946 Q134,946 136,931 L150,837 Q151,824 164,824 Z" fill="url(#hBotScr)"/>
+
+  <g clip-path="url(#hScrBot)">
+    <rect x="140" y="824" width="620" height="30" fill="#050a14" opacity="0.32"/>
+    <!-- call timer -->
+    <rect x="170" y="846" width="118" height="40" rx="12" fill="#1b2946" opacity="0.92"/>
+    <text x="229" y="873" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#d4def0">12:34</text>
+    <!-- local preview -->
+    <rect x="600" y="848" width="140" height="88" rx="14" fill="#24365c"/>
+    <circle cx="670" cy="884" r="17" fill="#46608f"/>
+    <rect x="646" y="906" width="48" height="24" rx="12" fill="#3c547f"/>
+    <text x="612" y="864" font-family="Arial, sans-serif" font-size="11" fill="#9db0d2">ME</text>
+    <!-- controls -->
+    <circle cx="300" cy="912" r="26" fill="#232f49" stroke="#3d4d6d" stroke-width="1.5"/>
+    <text x="300" y="917" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#cbd7ee">MIC</text>
+    <circle cx="388" cy="912" r="26" fill="#232f49" stroke="#3d4d6d" stroke-width="1.5"/>
+    <text x="388" y="917" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#cbd7ee">CAM</text>
+    <circle cx="476" cy="912" r="26" fill="#b04a40"/>
+    <text x="476" y="917" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">END</text>
+  </g>
+
+  <!-- upper half: far edge thickness -->
+  <path d="M168,466 L732,466 Q748,466 748,480 L747,492 L153,492 L152,480 Q152,466 168,466 Z" fill="#090e19"/>
+  <!-- upper half: body -->
+  <path d="M172,484 L728,484 Q746,484 747,500 L771,796 Q773,814 754,814 L146,814 Q127,814 129,796 L153,500 Q154,484 172,484 Z" fill="url(#hTopBody)" stroke="#3c4c6a" stroke-width="1.2"/>
+  <!-- upper half: inner screen (remote video) -->
+  <path d="M182,502 L718,502 Q731,502 732,515 L750,781 Q752,796 737,796 L163,796 Q148,796 150,781 L168,515 Q169,502 182,502 Z" fill="url(#hTopScr)"/>
+
+  <g clip-path="url(#hScrTop)">
+    <circle cx="450" cy="630" r="190" fill="url(#hGlow)"/>
+    <circle cx="450" cy="612" r="66" fill="#4c6494"/>
+    <path d="M352,796 Q352,692 450,692 Q548,692 548,796 Z" fill="#3c5480"/>
+    <circle cx="450" cy="524" r="6" fill="#05080f" stroke="#1a2436" stroke-width="1"/>
+    <rect x="690" y="520" width="52" height="26" rx="8" fill="#0b1322" opacity="0.8"/>
+    <text x="716" y="538" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#9fb2d4">HD</text>
+  </g>
+
+  <!-- hinge -->
+  <rect x="128" y="788" width="644" height="26" rx="13" fill="url(#hHinge)"/>
+  <rect x="136" y="791" width="628" height="3" rx="1.5" fill="#ffffff" opacity="0.18"/>
+  <rect x="255" y="790" width="4" height="22" rx="2" fill="#0d1424" opacity="0.7"/>
+  <rect x="384" y="790" width="4" height="22" rx="2" fill="#0d1424" opacity="0.7"/>
+  <rect x="513" y="790" width="4" height="22" rx="2" fill="#0d1424" opacity="0.7"/>
+  <rect x="642" y="790" width="4" height="22" rx="2" fill="#0d1424" opacity="0.7"/>
+</svg>

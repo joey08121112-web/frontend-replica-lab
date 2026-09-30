@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="两名安装工程师作业场景示意">
+  <!-- 教学素材：内容示意，不构成站点配色或布局建议 -->
+  <rect x="0" y="0" width="800" height="600" fill="#F3F5F8"/>
+  <line x1="0" y1="540" x2="800" y2="540" stroke="#C9CFD8" stroke-width="3"/>
+  <!-- 墙上待装中枢轮廓 -->
+  <rect x="330" y="150" width="150" height="190" rx="18" fill="#FFFFFF" stroke="#C9CFD8" stroke-width="4" stroke-dasharray="10 8"/>
+  <circle cx="405" cy="220" r="26" fill="none" stroke="#C9CFD8" stroke-width="4" stroke-dasharray="8 8"/>
+  <!-- 工程师 A（站立，持电钻） -->
+  <g>
+    <!-- 安全帽 -->
+    <path d="M200 176 a34 34 0 0 1 68 0 z" fill="#F0A03C"/>
+    <rect x="192" y="172" width="84" height="12" rx="6" fill="#D9822B"/>
+    <!-- 头 -->
+    <circle cx="234" cy="196" r="24" fill="#EDEFF3" stroke="#3E4756" stroke-width="4"/>
+    <!-- 身体 -->
+    <rect x="204" y="222" width="60" height="130" rx="22" fill="#4E5D73"/>
+    <!-- 手臂 + 电钻 -->
+    <path d="M258 250 L316 286" stroke="#4E5D73" stroke-width="18" stroke-linecap="round"/>
+    <rect x="306" y="266" width="34" height="30" rx="6" fill="#3E4756"/>
+    <rect x="338" y="274" width="16" height="12" rx="3" fill="#7A8494"/>
+    <!-- 腿 -->
+    <path d="M220 352 L212 470" stroke="#3E4756" stroke-width="20" stroke-linecap="round"/>
+    <path d="M250 352 L258 470" stroke="#3E4756" stroke-width="20" stroke-linecap="round"/>
+    <rect x="196" y="466" width="44" height="14" rx="7" fill="#3E4756"/>
+    <rect x="242" y="466" width="44" height="14" rx="7" fill="#3E4756"/>
+    <!-- 反光条 -->
+    <rect x="204" y="300" width="60" height="10" rx="5" fill="#F0A03C"/>
+  </g>
+  <!-- 工程师 B（蹲姿，工具箱旁递料） -->
+  <g>
+    <path d="M560 240 a30 30 0 0 1 60 0 z" fill="#F0A03C"/>
+    <rect x="552" y="236" width="76" height="11" rx="5.5" fill="#D9822B"/>
+    <circle cx="590" cy="258" r="21" fill="#EDEFF3" stroke="#3E4756" stroke-width="4"/>
+    <rect x="562" y="280" width="56" height="104" rx="20" fill="#4E5D73"/>
+    <path d="M566 350 L540 470" stroke="#3E4756" stroke-width="20" stroke-linecap="round"/>
+    <path d="M614 350 L640 470" stroke="#3E4756" stroke-width="20" stroke-linecap="round"/>
+    <rect x="520" y="464" width="48" height="14" rx="7" fill="#3E4756"/>
+    <rect x="622" y="464" width="48" height="14" rx="7" fill="#3E4756"/>
+    <path d="M566 306 L520 330" stroke="#4E5D73" stroke-width="16" stroke-linecap="round"/>
+    <!-- 工具箱 -->
+    <rect x="470" y="440" width="90" height="52" rx="8" fill="#FFFFFF" stroke="#3E4756" stroke-width="4"/>
+    <path d="M492 440 a23 20 0 0 1 46 0" fill="none" stroke="#3E4756" stroke-width="4"/>
+    <rect x="484" y="460" width="62" height="8" rx="4" fill="#F0A03C"/>
+  </g>
+  <!-- 地面阴影 -->
+  <ellipse cx="400" cy="556" rx="330" ry="12" fill="#C9CFD8" opacity="0.5"/>
+</svg>

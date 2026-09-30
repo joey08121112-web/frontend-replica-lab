@@ -1,0 +1,5 @@
+/* HelioHub starter · 极简 reset。
+   颜色 / 字体 / 间距 / 布局 / 断点 / 组件——全部由你决定，你的系统从这里开始。 */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+img { max-width: 100%; height: auto; }

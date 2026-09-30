@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Vector Trail cycling computer, front view with live ride data on screen">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f9fa"/>
+      <stop offset="1" stop-color="#e3e6e9"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#353c44"/>
+      <stop offset="0.55" stop-color="#22272d"/>
+      <stop offset="1" stop-color="#13161a"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111519"/>
+      <stop offset="1" stop-color="#06080a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#0d1318"/>
+      <stop offset="1" stop-color="#070a0c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g font-family="Arial, sans-serif">
+    <!-- ground shadow -->
+    <ellipse cx="400" cy="546" rx="190" ry="15" fill="#0a0d10" opacity="0.09"/>
+    <!-- out-front mount -->
+    <rect x="342" y="468" width="116" height="26" rx="9" fill="#20262c"/>
+    <rect x="320" y="490" width="160" height="28" rx="11" fill="#272d34"/>
+    <rect x="330" y="494" width="140" height="3.5" rx="1.75" fill="#3d454e" opacity="0.5"/>
+    <rect x="394" y="496" width="12" height="16" rx="4" fill="#141920"/>
+    <!-- side buttons -->
+    <rect x="250" y="214" width="16" height="38" rx="7" fill="#101419"/>
+    <rect x="250" y="264" width="16" height="38" rx="7" fill="#101419"/>
+    <rect x="534" y="224" width="16" height="50" rx="7" fill="#101419"/>
+    <!-- body -->
+    <rect x="260" y="96" width="280" height="384" rx="46" fill="url(#body)"/>
+    <rect x="261" y="97" width="278" height="382" rx="45" fill="none" stroke="#4e575f" stroke-opacity="0.5" stroke-width="1.5"/>
+    <rect x="273" y="107" width="254" height="362" rx="36" fill="#1b2026" opacity="0.85"/>
+    <text x="400" y="122" text-anchor="middle" font-size="10.5" letter-spacing="3" fill="#9aa4ad">VECTOR TRAIL</text>
+    <!-- screen -->
+    <rect x="290" y="134" width="220" height="312" rx="18" fill="url(#bezel)"/>
+    <rect x="298" y="142" width="204" height="296" rx="13" fill="url(#glass)"/>
+    <!-- status bar -->
+    <rect x="310" y="158" width="5" height="5" fill="#71d144"/>
+    <rect x="317" y="155" width="5" height="8" fill="#71d144"/>
+    <rect x="324" y="152" width="5" height="11" fill="#71d144"/>
+    <rect x="331" y="149" width="5" height="14" fill="#71d144"/>
+    <text x="343" y="163" font-size="11" fill="#71d144">GPS</text>
+    <text x="400" y="163" text-anchor="middle" font-size="11" fill="#8a949c">18°C</text>
+    <rect x="451" y="151.5" width="34" height="14" rx="3" fill="none" stroke="#8a949c" stroke-width="1.5"/>
+    <rect x="454" y="154.5" width="24" height="8" fill="#71d144"/>
+    <rect x="486.5" y="155" width="3" height="7" rx="1" fill="#8a949c"/>
+    <rect x="298" y="168" width="204" height="1.2" fill="#1c232a"/>
+    <!-- speed hero -->
+    <text x="312" y="192" font-size="12" letter-spacing="1.5" fill="#8a949c">SPD</text>
+    <text x="400" y="252" text-anchor="middle" font-size="60" font-weight="bold" fill="#f2f5f7">34.6</text>
+    <text x="400" y="274" text-anchor="middle" font-size="12" letter-spacing="1" fill="#8a949c">KM/H</text>
+    <!-- 2x2 data grid -->
+    <rect x="399.5" y="288" width="1" height="102" fill="#1c232a"/>
+    <rect x="306" y="338" width="188" height="1.2" fill="#1c232a"/>
+    <text x="310" y="304" font-size="10.5" letter-spacing="1" fill="#8a949c">HR</text>
+    <text x="310" y="330" font-size="24" font-weight="bold" fill="#ff4b3e">152</text>
+    <text x="356" y="330" font-size="11" fill="#8a949c">BPM</text>
+    <text x="410" y="304" font-size="10.5" letter-spacing="1" fill="#8a949c">PWR</text>
+    <text x="410" y="330" font-size="24" font-weight="bold" fill="#f2f5f7">248</text>
+    <text x="456" y="330" font-size="11" fill="#8a949c">W</text>
+    <text x="310" y="358" font-size="10.5" letter-spacing="1" fill="#8a949c">CAD</text>
+    <text x="310" y="384" font-size="24" font-weight="bold" fill="#f2f5f7">88</text>
+    <text x="346" y="384" font-size="11" fill="#8a949c">RPM</text>
+    <text x="410" y="358" font-size="10.5" letter-spacing="1" fill="#8a949c">DIST</text>
+    <text x="410" y="384" font-size="24" font-weight="bold" fill="#f2f5f7">42.7</text>
+    <text x="472" y="384" font-size="11" fill="#8a949c">KM</text>
+    <!-- bottom bar -->
+    <rect x="298" y="400" width="204" height="1.2" fill="#1c232a"/>
+    <text x="312" y="425" font-size="14" fill="#e8ecef">10:38</text>
+    <text x="400" y="425" text-anchor="middle" font-size="12" fill="#8a949c">1:47:22</text>
+    <circle cx="462" cy="420" r="3.5" fill="#71d144"/>
+    <circle cx="474" cy="420" r="3.5" fill="#39434c"/>
+    <circle cx="486" cy="420" r="3.5" fill="#39434c"/>
+    <!-- faint glass sheen -->
+    <path d="M298,142 L372,142 L324,438 L298,438 Z" fill="#ffffff" opacity="0.03"/>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Vector Trail cycling computer turn-by-turn navigation screen with turn arrow, distance and street name">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f9fa"/>
+      <stop offset="1" stop-color="#e3e6e9"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#353c44"/>
+      <stop offset="0.55" stop-color="#22272d"/>
+      <stop offset="1" stop-color="#13161a"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111519"/>
+      <stop offset="1" stop-color="#06080a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#0d1318"/>
+      <stop offset="1" stop-color="#070a0c"/>
+    </linearGradient>
+    <clipPath id="scr">
+      <rect x="62" y="46" width="676" height="408" rx="14"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g font-family="Arial, sans-serif">
+    <!-- device face -->
+    <rect x="36" y="20" width="728" height="460" rx="36" fill="url(#body)"/>
+    <rect x="37" y="21" width="726" height="458" rx="35" fill="none" stroke="#4e575f" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="52" y="36" width="696" height="428" rx="22" fill="url(#bezel)"/>
+    <rect x="62" y="46" width="676" height="408" rx="14" fill="url(#glass)"/>
+    <g clip-path="url(#scr)">
+      <rect x="62" y="46" width="676" height="408" fill="#0a0e11"/>
+      <!-- header -->
+      <text x="80" y="80" font-size="15" font-weight="bold" letter-spacing="2" fill="#f2f5f7">NAV</text>
+      <rect x="560" y="76" width="5" height="6" fill="#71d144"/>
+      <rect x="567" y="73" width="5" height="9" fill="#71d144"/>
+      <rect x="574" y="70" width="5" height="12" fill="#71d144"/>
+      <rect x="581" y="67" width="5" height="15" fill="#71d144"/>
+      <text x="593" y="81" font-size="10.5" fill="#71d144">GPS</text>
+      <rect x="664" y="62" width="38" height="15" rx="3" fill="none" stroke="#8a949c" stroke-width="1.5"/>
+      <rect x="667" y="65" width="27" height="9" fill="#71d144"/>
+      <rect x="703.5" y="65.5" width="3" height="8" rx="1" fill="#8a949c"/>
+      <rect x="62" y="96" width="676" height="1.2" fill="#1c232a"/>
+      <!-- big turn arrow (right turn) -->
+      <path d="M182,332 L182,222 L262,222" fill="none" stroke="#f2f5f7" stroke-width="44"/>
+      <polygon points="246,178 328,222 246,266" fill="#f2f5f7"/>
+      <!-- vertical divider -->
+      <rect x="376" y="140" width="1" height="200" fill="#1c232a"/>
+      <!-- distance to turn -->
+      <text x="556" y="158" text-anchor="middle" font-size="13" letter-spacing="2" fill="#8a949c">TURN IN</text>
+      <text x="556" y="266" text-anchor="middle" font-size="84" font-weight="bold" fill="#f2f5f7">220</text>
+      <text x="636" y="266" font-size="24" fill="#8a949c">M</text>
+      <!-- street name bar -->
+      <rect x="96" y="356" width="608" height="54" rx="12" fill="#131c23" stroke="#24303a" stroke-width="1.5"/>
+      <text x="400" y="391" text-anchor="middle" font-size="21" font-weight="bold" letter-spacing="1" fill="#f2f5f7">RIDGE CANYON ROAD</text>
+      <!-- next cue -->
+      <path d="M112,442 L112,430 L130,430" fill="none" stroke="#8a949c" stroke-width="5"/>
+      <polygon points="128,422 142,430 128,438" fill="#8a949c"/>
+      <text x="156" y="437" font-size="12" font-weight="bold" letter-spacing="1" fill="#71d144">THEN</text>
+      <text x="208" y="437" font-size="13" letter-spacing="0.5" fill="#aab4bc">TRAIL CREEK LANE</text>
+      <!-- faint glass sheen -->
+      <path d="M62,46 L210,46 L128,454 L62,454 Z" fill="#ffffff" opacity="0.02"/>
+    </g>
+  </g>
+</svg>

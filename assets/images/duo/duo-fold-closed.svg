@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="iPhone Duo foldable phone fully closed, front view showing the cover display and dual camera island">
+  <title>iPhone Duo — closed state</title>
+  <defs>
+    <linearGradient id="cBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c3b56"/>
+      <stop offset="0.5" stop-color="#1a2332"/>
+      <stop offset="1" stop-color="#101828"/>
+    </linearGradient>
+    <linearGradient id="cSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="0.35" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1524"/>
+      <stop offset="0.6" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#04060c"/>
+    </linearGradient>
+    <linearGradient id="cHinge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5d6d90"/>
+      <stop offset="0.45" stop-color="#28324a"/>
+      <stop offset="0.8" stop-color="#3c4a68"/>
+      <stop offset="1" stop-color="#1a2334"/>
+    </linearGradient>
+    <linearGradient id="cIsland" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2842"/>
+      <stop offset="1" stop-color="#0b111e"/>
+    </linearGradient>
+    <radialGradient id="cRing" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#93a4c4"/>
+      <stop offset="0.55" stop-color="#4a5a7c"/>
+      <stop offset="1" stop-color="#232e46"/>
+    </radialGradient>
+    <radialGradient id="cGlass" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#55688c"/>
+      <stop offset="0.55" stop-color="#16202f"/>
+      <stop offset="1" stop-color="#04060c"/>
+    </radialGradient>
+    <clipPath id="cScrClip">
+      <rect x="294" y="372" width="312" height="592" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="450" cy="1002" rx="205" ry="20" fill="#0f1726" opacity="0.16"/>
+  <ellipse cx="450" cy="1000" rx="148" ry="13" fill="#0f1726" opacity="0.14"/>
+
+  <!-- body depth (11.3 mm folded) -->
+  <rect x="278" y="220" width="360" height="776" rx="56" fill="#060a12"/>
+  <!-- body -->
+  <rect x="270" y="212" width="360" height="776" rx="56" fill="url(#cBody)" stroke="#3c4c6a" stroke-width="1.5"/>
+  <rect x="270" y="212" width="360" height="776" rx="56" fill="url(#cSheen)"/>
+
+  <!-- hinge spine on the right edge -->
+  <rect x="615" y="234" width="14" height="732" rx="7" fill="url(#cHinge)"/>
+  <rect x="615" y="470" width="14" height="5" fill="#0d1424" opacity="0.8"/>
+  <rect x="615" y="716" width="14" height="5" fill="#0d1424" opacity="0.8"/>
+
+  <!-- side buttons -->
+  <rect x="263" y="396" width="7" height="54" rx="3.5" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+  <rect x="263" y="464" width="7" height="54" rx="3.5" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+  <rect x="263" y="544" width="7" height="86" rx="3.5" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+
+  <!-- dual camera island -->
+  <rect x="294" y="236" width="112" height="112" rx="32" fill="url(#cIsland)" stroke="#35455f" stroke-width="1"/>
+  <rect x="301" y="243" width="98" height="98" rx="26" fill="none" stroke="#465a7c" stroke-width="1" opacity="0.25"/>
+  <circle cx="326" cy="300" r="22" fill="url(#cRing)"/>
+  <circle cx="326" cy="300" r="16" fill="#070b13"/>
+  <circle cx="326" cy="300" r="12" fill="url(#cGlass)"/>
+  <ellipse cx="320" cy="292" rx="4.5" ry="2.6" fill="#ffffff" opacity="0.4" transform="rotate(-25 320 292)"/>
+  <circle cx="374" cy="300" r="22" fill="url(#cRing)"/>
+  <circle cx="374" cy="300" r="16" fill="#070b13"/>
+  <circle cx="374" cy="300" r="12" fill="url(#cGlass)"/>
+  <ellipse cx="368" cy="292" rx="4.5" ry="2.6" fill="#ffffff" opacity="0.4" transform="rotate(-25 368 292)"/>
+  <circle cx="350" cy="258" r="8" fill="#e8ddb8" opacity="0.18"/>
+  <circle cx="350" cy="258" r="4.5" fill="#e8ddb8" opacity="0.8"/>
+
+  <!-- cover display (5.4") -->
+  <rect x="294" y="372" width="312" height="592" rx="30" fill="url(#cScreen)"/>
+  <rect x="295" y="373" width="310" height="590" rx="29" fill="none" stroke="#223050" stroke-width="1" opacity="0.5"/>
+  <circle cx="450" cy="398" r="7" fill="#02040a" stroke="#1a2436" stroke-width="1"/>
+
+  <g clip-path="url(#cScrClip)">
+    <circle cx="352" cy="470" r="1.4" fill="#cfe0ff" opacity="0.4"/>
+    <circle cx="530" cy="452" r="1.2" fill="#cfe0ff" opacity="0.3"/>
+    <circle cx="392" cy="560" r="1.1" fill="#cfe0ff" opacity="0.25"/>
+    <circle cx="560" cy="600" r="1.4" fill="#cfe0ff" opacity="0.3"/>
+    <circle cx="330" cy="640" r="1.1" fill="#cfe0ff" opacity="0.22"/>
+    <path d="M294,964 L360,884 L432,932 L522,850 L606,964 Z" fill="#2c3f63" opacity="0.5"/>
+    <path d="M294,964 L392,906 L472,946 L606,964 Z" fill="#1c2c4a" opacity="0.6"/>
+  </g>
+
+  <text x="450" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="1" fill="#d7e1f2" opacity="0.95">09:41</text>
+  <text x="450" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" letter-spacing="3" fill="#8090ac" opacity="0.9">MON SEP 28</text>
+  <rect x="410" y="940" width="80" height="5" rx="2.5" fill="#8fa2c2" opacity="0.5"/>
+</svg>

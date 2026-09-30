@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" role="img" aria-label="家用储能电池塔与电量指示示意">
+  <!-- 教学素材：内容示意，不构成站点配色或布局建议 -->
+  <rect x="0" y="0" width="500" height="600" fill="#F3F5F8"/>
+  <line x1="0" y1="540" x2="500" y2="540" stroke="#C9CFD8" stroke-width="3"/>
+  <!-- 顶部接线 -->
+  <path d="M250 130 C250 100 250 90 250 70" stroke="#3E4756" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <rect x="234" y="52" width="32" height="18" rx="6" fill="#7A8494"/>
+  <!-- 电池塔 -->
+  <rect x="150" y="130" width="200" height="380" rx="30" fill="#FFFFFF" stroke="#3E4756" stroke-width="5"/>
+  <rect x="170" y="150" width="160" height="340" rx="20" fill="#EDEFF3"/>
+  <!-- 电量指示（三格） -->
+  <g>
+    <rect x="205" y="188" width="90" height="10" rx="5" fill="#F0A03C"/>
+    <circle cx="340" cy="193" r="9" fill="#F0A03C"/>
+  </g>
+  <g>
+    <rect x="205" y="238" width="70" height="10" rx="5" fill="#F0A03C" opacity="0.55"/>
+    <circle cx="340" cy="243" r="9" fill="#F0A03C" opacity="0.55"/>
+  </g>
+  <g>
+    <rect x="205" y="288" width="40" height="10" rx="5" fill="#C9CFD8"/>
+    <circle cx="340" cy="293" r="9" fill="#C9CFD8"/>
+  </g>
+  <!-- 能量符号 -->
+  <path d="M250 340 L232 386 L254 386 L240 428 L278 372 L254 372 L270 340 Z" fill="#F0A03C"/>
+  <!-- 状态灯 -->
+  <circle cx="250" cy="462" r="12" fill="none" stroke="#F0A03C" stroke-width="6"/>
+  <!-- 底部阴影 -->
+  <ellipse cx="250" cy="556" rx="140" ry="12" fill="#C9CFD8" opacity="0.6"/>
+</svg>

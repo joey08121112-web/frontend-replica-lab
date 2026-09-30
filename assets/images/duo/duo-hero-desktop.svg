@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Hero banner with two folded iPhone Duo phones standing at slight angles on a deep night-blue gradient with faint stars, large empty space on the left for a headline">
+  <title>iPhone Duo — desktop hero</title>
+  <defs>
+    <linearGradient id="bgH" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e1a"/>
+      <stop offset="0.55" stop-color="#131c2c"/>
+      <stop offset="1" stop-color="#1a2332"/>
+    </linearGradient>
+    <radialGradient id="glowH" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#33456b" stop-opacity="0.5"/>
+      <stop offset="0.55" stop-color="#22304d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22304d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floorGlowH" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2e4066" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#2e4066" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c3b56"/>
+      <stop offset="0.5" stop-color="#1a2332"/>
+      <stop offset="1" stop-color="#0f1727"/>
+    </linearGradient>
+    <linearGradient id="rimH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0e2b8" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#c8b88a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7f8db0" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="sheenH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.35" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hingeH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5d6d90"/>
+      <stop offset="0.45" stop-color="#28324a"/>
+      <stop offset="0.8" stop-color="#4a5a7c"/>
+      <stop offset="1" stop-color="#1a2334"/>
+    </linearGradient>
+    <linearGradient id="scrH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1526"/>
+      <stop offset="0.6" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#04060c"/>
+    </linearGradient>
+    <linearGradient id="islH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2a45"/>
+      <stop offset="1" stop-color="#0b111e"/>
+    </linearGradient>
+    <radialGradient id="ringH" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#93a4c4"/>
+      <stop offset="0.55" stop-color="#4a5a7c"/>
+      <stop offset="1" stop-color="#232e46"/>
+    </radialGradient>
+    <radialGradient id="glassH" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#55688c"/>
+      <stop offset="0.55" stop-color="#16202f"/>
+      <stop offset="1" stop-color="#04060c"/>
+    </radialGradient>
+    <clipPath id="scrHClip">
+      <rect x="22" y="138" width="296" height="568" rx="27"/>
+    </clipPath>
+    <linearGradient id="fadeRef" x1="0" y1="816" x2="0" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="refMask">
+      <rect x="760" y="816" width="860" height="200" fill="url(#fadeRef)"/>
+    </mask>
+
+    <!-- folded Duo, front view, 340 x 730 -->
+    <g id="devFront">
+      <rect x="8" y="8" width="340" height="730" rx="52" fill="#03060c"/>
+      <rect x="-4" y="-4" width="348" height="738" rx="56" fill="none" stroke="#e9dcb4" stroke-width="6" opacity="0.12"/>
+      <rect x="0" y="0" width="340" height="730" rx="52" fill="url(#hBody)"/>
+      <rect x="0" y="0" width="340" height="730" rx="52" fill="url(#sheenH)"/>
+      <rect x="0" y="0" width="340" height="730" rx="52" fill="none" stroke="url(#rimH)" stroke-width="2"/>
+      <rect x="322" y="18" width="13" height="694" rx="6.5" fill="url(#hingeH)"/>
+      <rect x="322" y="340" width="13" height="5" fill="#0d1422" opacity="0.8"/>
+      <rect x="322" y="560" width="13" height="5" fill="#0d1422" opacity="0.8"/>
+      <rect x="336" y="24" width="2" height="682" fill="#e9dcb4" opacity="0.25"/>
+      <rect x="-5.5" y="300" width="6" height="52" rx="3" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+      <rect x="-5.5" y="368" width="6" height="52" rx="3" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+      <rect x="-5.5" y="446" width="6" height="84" rx="3" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+      <rect x="22" y="22" width="100" height="100" rx="30" fill="url(#islH)" stroke="#465a7c" stroke-width="1"/>
+      <circle cx="54" cy="74" r="19" fill="url(#ringH)"/>
+      <circle cx="54" cy="74" r="13.5" fill="#070b13"/>
+      <circle cx="54" cy="74" r="10" fill="url(#glassH)"/>
+      <circle cx="98" cy="74" r="19" fill="url(#ringH)"/>
+      <circle cx="98" cy="74" r="13.5" fill="#070b13"/>
+      <circle cx="98" cy="74" r="10" fill="url(#glassH)"/>
+      <circle cx="76" cy="42" r="8" fill="#e8ddb8" opacity="0.2"/>
+      <circle cx="76" cy="42" r="4.5" fill="#e8ddb8" opacity="0.85"/>
+      <rect x="22" y="138" width="296" height="568" rx="27" fill="url(#scrH)"/>
+      <rect x="23" y="139" width="294" height="566" rx="26" fill="none" stroke="#223050" stroke-width="1" opacity="0.55"/>
+      <circle cx="170" cy="162" r="6" fill="#02040a" stroke="#1a2436" stroke-width="1"/>
+      <g clip-path="url(#scrHClip)">
+        <circle cx="90" cy="250" r="1.3" fill="#cfe0ff" opacity="0.4"/>
+        <circle cx="250" cy="230" r="1.1" fill="#cfe0ff" opacity="0.3"/>
+        <circle cx="140" cy="420" r="1.1" fill="#cfe0ff" opacity="0.25"/>
+        <circle cx="270" cy="480" r="1.3" fill="#cfe0ff" opacity="0.3"/>
+        <path d="M22,706 L96,624 L160,668 L226,600 L318,706 Z" fill="#2c3f63" opacity="0.55"/>
+        <path d="M22,706 L120,650 L196,690 L318,706 Z" fill="#1e2e4e" opacity="0.6"/>
+      </g>
+      <text x="170" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="600" letter-spacing="1" fill="#eef3fb">09:41</text>
+      <text x="170" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" letter-spacing="3" fill="#8b9bb8">MON SEP 28</text>
+      <rect x="130" y="688" width="80" height="4.5" rx="2.25" fill="#8fa2c2" opacity="0.5"/>
+    </g>
+
+    <!-- folded Duo, back view, 340 x 730 -->
+    <g id="devBack">
+      <rect x="8" y="8" width="340" height="730" rx="52" fill="#03060c"/>
+      <rect x="-4" y="-4" width="348" height="738" rx="56" fill="none" stroke="#e9dcb4" stroke-width="6" opacity="0.12"/>
+      <rect x="0" y="0" width="340" height="730" rx="52" fill="url(#hBody)"/>
+      <rect x="0" y="0" width="340" height="730" rx="52" fill="url(#sheenH)"/>
+      <rect x="0" y="0" width="340" height="730" rx="52" fill="none" stroke="url(#rimH)" stroke-width="2"/>
+      <rect x="218" y="24" width="104" height="104" rx="32" fill="url(#islH)" stroke="#465a7c" stroke-width="1"/>
+      <circle cx="250" cy="62" r="20" fill="url(#ringH)"/>
+      <circle cx="250" cy="62" r="14.5" fill="#070b13"/>
+      <circle cx="250" cy="62" r="11" fill="url(#glassH)"/>
+      <ellipse cx="244" cy="56" rx="4" ry="2.4" fill="#ffffff" opacity="0.4" transform="rotate(-25 244 56)"/>
+      <circle cx="292" cy="96" r="20" fill="url(#ringH)"/>
+      <circle cx="292" cy="96" r="14.5" fill="#070b13"/>
+      <circle cx="292" cy="96" r="11" fill="url(#glassH)"/>
+      <ellipse cx="286" cy="90" rx="4" ry="2.4" fill="#ffffff" opacity="0.4" transform="rotate(-25 286 90)"/>
+      <circle cx="296" cy="44" r="9" fill="#e8ddb8" opacity="0.2"/>
+      <circle cx="296" cy="44" r="5" fill="#e8ddb8" opacity="0.85"/>
+      <circle cx="170" cy="380" r="64" fill="none" stroke="#b9a97f" stroke-width="2" opacity="0.15"/>
+      <circle cx="170" cy="380" r="52" fill="none" stroke="#b9a97f" stroke-width="6" opacity="0.6"/>
+      <rect x="339.5" y="300" width="6" height="52" rx="3" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+      <rect x="339.5" y="368" width="6" height="52" rx="3" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+      <rect x="339.5" y="446" width="6" height="84" rx="3" fill="#0b1322" stroke="#33425c" stroke-width="0.6"/>
+    </g>
+  </defs>
+
+  <!-- night background -->
+  <rect width="1600" height="900" fill="url(#bgH)"/>
+  <ellipse cx="1210" cy="470" rx="520" ry="380" fill="url(#glowH)"/>
+
+  <!-- stars -->
+  <g fill="#cfe0ff">
+    <circle cx="60" cy="80" r="1.2" opacity="0.35"/>
+    <circle cx="140" cy="210" r="0.9" opacity="0.22"/>
+    <circle cx="220" cy="140" r="1.5" opacity="0.4"/>
+    <circle cx="300" cy="60" r="1" opacity="0.25"/>
+    <circle cx="360" cy="260" r="1.1" opacity="0.2"/>
+    <circle cx="410" cy="120" r="0.8" opacity="0.18"/>
+    <circle cx="480" cy="190" r="1.6" opacity="0.45"/>
+    <circle cx="540" cy="70" r="0.9" opacity="0.2"/>
+    <circle cx="610" cy="300" r="1" opacity="0.22"/>
+    <circle cx="660" cy="150" r="1.3" opacity="0.35"/>
+    <circle cx="700" cy="50" r="0.8" opacity="0.15"/>
+    <circle cx="760" cy="230" r="1.1" opacity="0.28"/>
+    <circle cx="820" cy="330" r="0.9" opacity="0.2"/>
+    <circle cx="930" cy="80" r="1.2" opacity="0.3"/>
+    <circle cx="990" cy="200" r="0.8" opacity="0.16"/>
+    <circle cx="1060" cy="120" r="1.4" opacity="0.38"/>
+    <circle cx="1120" cy="280" r="0.9" opacity="0.2"/>
+    <circle cx="1180" cy="60" r="1.1" opacity="0.25"/>
+    <circle cx="1240" cy="180" r="0.8" opacity="0.15"/>
+    <circle cx="1300" cy="320" r="1.2" opacity="0.3"/>
+    <circle cx="1430" cy="240" r="1" opacity="0.2"/>
+    <circle cx="1490" cy="140" r="1.2" opacity="0.3"/>
+    <circle cx="1540" cy="60" r="0.9" opacity="0.18"/>
+    <circle cx="1560" cy="300" r="1.1" opacity="0.24"/>
+    <circle cx="240" cy="360" r="0.8" opacity="0.15"/>
+    <circle cx="90" cy="420" r="1" opacity="0.2"/>
+    <circle cx="170" cy="520" r="1.2" opacity="0.26"/>
+    <circle cx="330" cy="470" r="0.8" opacity="0.14"/>
+    <circle cx="60" cy="640" r="1" opacity="0.18"/>
+    <circle cx="250" cy="700" r="0.9" opacity="0.14"/>
+    <circle cx="430" cy="390" r="1" opacity="0.2"/>
+    <circle cx="560" cy="430" r="0.8" opacity="0.15"/>
+    <circle cx="640" cy="520" r="1" opacity="0.18"/>
+    <circle cx="720" cy="420" r="0.8" opacity="0.14"/>
+    <circle cx="830" cy="470" r="1.1" opacity="0.2"/>
+    <circle cx="960" cy="380" r="0.8" opacity="0.13"/>
+    <circle cx="1080" cy="430" r="1" opacity="0.16"/>
+    <circle cx="1330" cy="410" r="1" opacity="0.15"/>
+    <circle cx="1560" cy="520" r="1" opacity="0.14"/>
+    <circle cx="390" cy="760" r="0.8" opacity="0.12"/>
+    <circle cx="150" cy="830" r="0.9" opacity="0.12"/>
+    <circle cx="700" cy="720" r="0.8" opacity="0.11"/>
+    <circle cx="980" cy="640" r="0.8" opacity="0.11"/>
+    <circle cx="1520" cy="760" r="0.8" opacity="0.1"/>
+  </g>
+  <path d="M220 132v16M212 140h16" stroke="#dfe9ff" stroke-width="1.3" opacity="0.5" stroke-linecap="round"/>
+  <path d="M820 102v16M812 110h16" stroke="#dfe9ff" stroke-width="1.3" opacity="0.45" stroke-linecap="round"/>
+  <path d="M1360 52v16M1352 60h16" stroke="#dfe9ff" stroke-width="1.3" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- floor -->
+  <ellipse cx="1200" cy="822" rx="470" ry="72" fill="url(#floorGlowH)"/>
+
+  <!-- reflections -->
+  <g mask="url(#refMask)">
+    <use href="#devFront" transform="translate(850,1554) scale(1,-1)" opacity="0.5"/>
+    <use href="#devBack" transform="translate(1210,1554) scale(1,-1)" opacity="0.5"/>
+  </g>
+
+  <!-- standing devices -->
+  <use href="#devFront" transform="translate(850,94) rotate(-5 170 730)"/>
+  <use href="#devBack" transform="translate(1210,94) rotate(3 170 730)"/>
+
+  <!-- contact shadows -->
+  <ellipse cx="1020" cy="830" rx="185" ry="15" fill="#03060c" opacity="0.55"/>
+  <ellipse cx="1380" cy="830" rx="190" ry="15" fill="#03060c" opacity="0.55"/>
+  <ellipse cx="1200" cy="834" rx="430" ry="24" fill="#03060c" opacity="0.3"/>
+</svg>

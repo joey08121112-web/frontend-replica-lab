@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="家庭能源流示意：电网、光伏、电池经中枢供给住宅">
+  <!-- 教学素材：内容示意，不构成站点配色或布局建议 -->
+  <rect x="0" y="0" width="800" height="560" fill="#F3F5F8"/>
+  <!-- 太阳 -->
+  <circle cx="700" cy="90" r="40" fill="#F0A03C"/>
+  <g stroke="#F0A03C" stroke-width="6" stroke-linecap="round">
+    <line x1="700" y1="26" x2="700" y2="44"/>
+    <line x1="764" y1="90" x2="746" y2="90"/>
+    <line x1="636" y1="90" x2="654" y2="90"/>
+    <line x1="745" y1="45" x2="733" y2="57"/>
+    <line x1="655" y1="135" x2="667" y2="123"/>
+  </g>
+  <!-- 电网铁塔（左） -->
+  <g stroke="#7A8494" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M70 460 L100 220 L130 460"/>
+    <line x1="84" y1="330" x2="116" y2="330"/>
+    <line x1="78" y1="395" x2="122" y2="395"/>
+    <path d="M52 240 L148 240"/>
+    <path d="M60 240 L100 220 L140 240"/>
+  </g>
+  <path d="M148 244 C240 244 300 260 340 300" stroke="#7A8494" stroke-width="4" fill="none" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <!-- 住宅（右） -->
+  <g>
+    <rect x="470" y="270" width="280" height="180" fill="#FFFFFF" stroke="#3E4756" stroke-width="5"/>
+    <path d="M450 280 L610 160 L770 280 Z" fill="#EDEFF3" stroke="#3E4756" stroke-width="5"/>
+    <!-- 屋顶光伏 -->
+    <g transform="rotate(-33 610 216)">
+      <rect x="560" y="196" width="100" height="34" fill="#4E5D73"/>
+      <line x1="593" y1="196" x2="593" y2="230" stroke="#EDEFF3" stroke-width="3"/>
+      <line x1="627" y1="196" x2="627" y2="230" stroke="#EDEFF3" stroke-width="3"/>
+      <line x1="560" y1="213" x2="660" y2="213" stroke="#EDEFF3" stroke-width="3"/>
+    </g>
+    <!-- 窗 -->
+    <rect x="505" y="310" width="52" height="60" rx="4" fill="#F0A03C" opacity="0.55"/>
+    <rect x="590" y="310" width="52" height="60" rx="4" fill="#F0A03C" opacity="0.55"/>
+    <rect x="655" y="370" width="70" height="80" rx="4" fill="#4E5D73"/>
+    <!-- 中枢（墙上小盒） -->
+    <rect x="480" y="386" width="0" height="0" fill="none"/>
+  </g>
+  <!-- 电池（房侧） -->
+  <g>
+    <rect x="360" y="360" width="72" height="90" rx="12" fill="#FFFFFF" stroke="#3E4756" stroke-width="5"/>
+    <circle cx="396" cy="382" r="7" fill="#F0A03C"/>
+    <circle cx="396" cy="404" r="7" fill="#F0A03C" opacity="0.5"/>
+    <circle cx="396" cy="426" r="7" fill="#C9CFD8"/>
+  </g>
+  <!-- 中枢（房前小盒） -->
+  <g>
+    <rect x="230" y="380" width="84" height="70" rx="14" fill="#3E4756"/>
+    <circle cx="272" cy="412" r="17" fill="#2E3646"/>
+    <circle cx="272" cy="412" r="11" fill="none" stroke="#F0A03C" stroke-width="5" stroke-linecap="round" stroke-dasharray="48 22"/>
+  </g>
+  <!-- 能源流（琥珀色虚线 + 箭头） -->
+  <g stroke="#F0A03C" stroke-width="5" fill="none" stroke-dasharray="3 12" stroke-linecap="round">
+    <path d="M676 128 C600 180 560 200 540 240"/>
+    <path d="M340 306 C300 330 288 350 276 376"/>
+    <path d="M392 356 C360 340 310 330 286 356"/>
+    <path d="M230 414 C160 414 120 380 118 330"/>
+  </g>
+  <g fill="#F0A03C">
+    <path d="M540 248 l-12 -4 8 -10 z"/>
+    <path d="M272 384 l-2 -14 12 4 z"/>
+    <path d="M292 350 l-14 2 6 -12 z"/>
+    <path d="M116 322 l-8 12 12 4 z"/>
+  </g>
+  <!-- 地面 -->
+  <line x1="0" y1="450" x2="800" y2="450" stroke="#C9CFD8" stroke-width="3"/>
+</svg>

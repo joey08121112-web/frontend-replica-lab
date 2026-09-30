@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Close-up macro view of the iPhone Duo rear panel in midnight blue showing the dual camera module with two large lenses and a flash">
+  <title>iPhone Duo — camera close-up</title>
+  <defs>
+    <linearGradient id="pBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e3d58"/>
+      <stop offset="0.5" stop-color="#1a2332"/>
+      <stop offset="1" stop-color="#0c1322"/>
+    </linearGradient>
+    <linearGradient id="pIsland" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26334e"/>
+      <stop offset="1" stop-color="#0e1626"/>
+    </linearGradient>
+    <linearGradient id="pRingA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#aab8d4"/>
+      <stop offset="0.5" stop-color="#5b6b8c"/>
+      <stop offset="1" stop-color="#32405e"/>
+    </linearGradient>
+    <radialGradient id="pGlass" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#5d739c"/>
+      <stop offset="0.45" stop-color="#223350"/>
+      <stop offset="0.8" stop-color="#0a1120"/>
+      <stop offset="1" stop-color="#05070d"/>
+    </radialGradient>
+    <radialGradient id="pLensIn" cx="0.4" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#16233c"/>
+      <stop offset="0.7" stop-color="#05080f"/>
+      <stop offset="1" stop-color="#020409"/>
+    </radialGradient>
+    <radialGradient id="pFlash" cx="0.4" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#f7f1dc"/>
+      <stop offset="0.6" stop-color="#ddd0a6"/>
+      <stop offset="1" stop-color="#b3a377"/>
+    </radialGradient>
+    <radialGradient id="pVign" cx="0.5" cy="0.5" r="0.72">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.3"/>
+    </radialGradient>
+  </defs>
+
+  <!-- rear panel, cropped for macro feel -->
+  <rect x="-48" y="-48" width="996" height="996" rx="96" fill="url(#pBody)"/>
+  <path d="M-48,-48 L520,-48 L-48,470 Z" fill="#ffffff" opacity="0.04"/>
+
+  <!-- camera island -->
+  <rect x="176" y="164" width="472" height="472" rx="116" fill="#05080f" opacity="0.45"/>
+  <rect x="168" y="152" width="472" height="472" rx="116" fill="url(#pIsland)" stroke="#465a7c" stroke-width="1.5"/>
+  <rect x="181" y="165" width="446" height="446" rx="104" fill="none" stroke="#546a90" stroke-width="1.2" opacity="0.25"/>
+
+  <!-- lens 1 -->
+  <circle cx="330" cy="330" r="95" fill="#0a101d"/>
+  <circle cx="330" cy="330" r="89" fill="none" stroke="url(#pRingA)" stroke-width="12"/>
+  <circle cx="330" cy="330" r="76" fill="#060a12" stroke="#1c2740" stroke-width="1"/>
+  <circle cx="330" cy="330" r="62" fill="url(#pGlass)"/>
+  <circle cx="330" cy="330" r="46" fill="none" stroke="#6a7fae" stroke-width="3" opacity="0.25"/>
+  <circle cx="330" cy="330" r="30" fill="url(#pLensIn)"/>
+  <circle cx="330" cy="330" r="6" fill="#0b1526"/>
+  <ellipse cx="300" cy="296" rx="18" ry="10" fill="#ffffff" opacity="0.32" transform="rotate(-28 300 296)"/>
+  <circle cx="348" cy="286" r="4" fill="#ffffff" opacity="0.25"/>
+
+  <!-- lens 2 -->
+  <circle cx="532" cy="436" r="95" fill="#0a101d"/>
+  <circle cx="532" cy="436" r="89" fill="none" stroke="url(#pRingA)" stroke-width="12"/>
+  <circle cx="532" cy="436" r="76" fill="#060a12" stroke="#1c2740" stroke-width="1"/>
+  <circle cx="532" cy="436" r="62" fill="url(#pGlass)"/>
+  <circle cx="532" cy="436" r="46" fill="none" stroke="#6a7fae" stroke-width="3" opacity="0.25"/>
+  <circle cx="532" cy="436" r="30" fill="url(#pLensIn)"/>
+  <circle cx="532" cy="436" r="6" fill="#0b1526"/>
+  <ellipse cx="502" cy="402" rx="18" ry="10" fill="#ffffff" opacity="0.32" transform="rotate(-28 502 402)"/>
+  <circle cx="550" cy="392" r="4" fill="#ffffff" opacity="0.25"/>
+
+  <!-- flash + mic -->
+  <circle cx="548" cy="240" r="34" fill="url(#pFlash)"/>
+  <circle cx="548" cy="240" r="16" fill="#efe6c8" opacity="0.85"/>
+  <circle cx="548" cy="240" r="34" fill="none" stroke="#8fa0c0" stroke-width="2.5" opacity="0.5"/>
+  <circle cx="240" cy="540" r="8" fill="#0a101d" stroke="#3a4a68" stroke-width="1.5"/>
+
+  <!-- logo ring entering the frame -->
+  <circle cx="820" cy="850" r="110" fill="none" stroke="#46566f" stroke-width="8" opacity="0.5"/>
+
+  <!-- vignette -->
+  <rect x="-48" y="-48" width="996" height="996" fill="url(#pVign)"/>
+</svg>

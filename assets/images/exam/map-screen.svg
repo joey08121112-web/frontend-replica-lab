@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Vector Trail cycling computer map screen with route, start and finish markers, north arrow and scale bar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f9fa"/>
+      <stop offset="1" stop-color="#e3e6e9"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#353c44"/>
+      <stop offset="0.55" stop-color="#22272d"/>
+      <stop offset="1" stop-color="#13161a"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111519"/>
+      <stop offset="1" stop-color="#06080a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#0d1318"/>
+      <stop offset="1" stop-color="#070a0c"/>
+    </linearGradient>
+    <clipPath id="scr">
+      <rect x="62" y="46" width="676" height="408" rx="14"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g font-family="Arial, sans-serif">
+    <!-- device face -->
+    <rect x="36" y="20" width="728" height="460" rx="36" fill="url(#body)"/>
+    <rect x="37" y="21" width="726" height="458" rx="35" fill="none" stroke="#4e575f" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="52" y="36" width="696" height="428" rx="22" fill="url(#bezel)"/>
+    <rect x="62" y="46" width="676" height="408" rx="14" fill="url(#glass)"/>
+    <g clip-path="url(#scr)">
+      <!-- map base -->
+      <rect x="62" y="46" width="676" height="408" fill="#0c1116"/>
+      <!-- terrain blocks -->
+      <rect x="96" y="296" width="170" height="128" rx="12" fill="#101d15"/>
+      <rect x="540" y="240" width="150" height="112" rx="12" fill="#101d15"/>
+      <rect x="480" y="60" width="120" height="86" rx="12" fill="#0f1c26"/>
+      <!-- minor roads -->
+      <g stroke="#19232e" stroke-width="3" fill="none">
+        <path d="M62,140 L738,128"/>
+        <path d="M62,236 L738,248"/>
+        <path d="M62,364 L738,348"/>
+        <path d="M150,46 L144,454"/>
+        <path d="M300,46 L308,454"/>
+        <path d="M452,46 L444,454"/>
+        <path d="M600,46 L608,454"/>
+      </g>
+      <!-- major roads -->
+      <g stroke="#222e3a" stroke-width="8" fill="none">
+        <path d="M62,300 C240,288 480,318 738,296"/>
+        <path d="M242,46 C252,180 262,320 276,454"/>
+        <path d="M62,416 C260,396 520,440 738,404"/>
+      </g>
+      <!-- route casing + route -->
+      <path d="M96,430 C150,392 138,332 208,318 C268,306 300,342 344,306 C396,264 356,212 412,178 C462,148 528,182 574,148 C606,124 620,122 636,118" fill="none" stroke="#0c1116" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M96,430 C150,392 138,332 208,318 C268,306 300,342 344,306 C396,264 356,212 412,178 C462,148 528,182 574,148 C606,124 620,122 636,118" fill="none" stroke="#3cc8f5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- start marker -->
+      <circle cx="96" cy="430" r="11" fill="#71d144" stroke="#0c1116" stroke-width="3"/>
+      <circle cx="96" cy="430" r="3.5" fill="#ffffff"/>
+      <!-- finish marker (checkered) -->
+      <g transform="translate(636,118)">
+        <circle r="11" fill="#f2f5f7" stroke="#0c1116" stroke-width="3"/>
+        <rect x="-6" y="-6" width="6" height="6" fill="#14181c"/>
+        <rect x="0" y="0" width="6" height="6" fill="#14181c"/>
+      </g>
+      <!-- current position -->
+      <circle cx="344" cy="306" r="15" fill="none" stroke="#3cc8f5" stroke-opacity="0.35" stroke-width="2.5"/>
+      <path transform="translate(344,306) rotate(40)" d="M0,-11 L8,9 L0,4.5 L-8,9 Z" fill="#f2f5f7" stroke="#0c1116" stroke-width="2.5" stroke-linejoin="round"/>
+      <!-- north indicator -->
+      <circle cx="700" cy="116" r="15" fill="#111a21" stroke="#27333e" stroke-width="1.5"/>
+      <path d="M700,106 L705.5,123 L700,119 L694.5,123 Z" fill="#f2f5f7"/>
+      <text x="700" y="147" text-anchor="middle" font-size="10" font-weight="bold" fill="#8a949c">N</text>
+      <!-- scale bar -->
+      <text x="673" y="396" text-anchor="middle" font-size="12" fill="#aab4bc">500 M</text>
+      <path d="M628,404 L718,404" stroke="#aab4bc" stroke-width="3"/>
+      <rect x="628" y="397" width="3" height="14" fill="#aab4bc"/>
+      <rect x="715" y="397" width="3" height="14" fill="#aab4bc"/>
+      <!-- status: GPS + battery -->
+      <rect x="78" y="72" width="5" height="6" fill="#71d144"/>
+      <rect x="85" y="69" width="5" height="9" fill="#71d144"/>
+      <rect x="92" y="66" width="5" height="12" fill="#71d144"/>
+      <rect x="99" y="63" width="5" height="15" fill="#71d144"/>
+      <text x="111" y="77" font-size="10.5" fill="#71d144">GPS</text>
+      <rect x="664" y="62" width="38" height="15" rx="3" fill="none" stroke="#8a949c" stroke-width="1.5"/>
+      <rect x="667" y="65" width="27" height="9" fill="#71d144"/>
+      <rect x="703.5" y="65.5" width="3" height="8" rx="1" fill="#8a949c"/>
+      <!-- faint glass sheen -->
+      <path d="M62,46 L210,46 L128,454 L62,454 Z" fill="#ffffff" opacity="0.02"/>
+    </g>
+  </g>
+</svg>

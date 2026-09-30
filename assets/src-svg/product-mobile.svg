@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 780 1040" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="mglow" cx="0.5" cy="0.72" r="0.8">
+      <stop offset="0" stop-color="#26262b"/>
+      <stop offset="0.55" stop-color="#101013"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="mbody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a3441"/>
+      <stop offset="0.5" stop-color="#5b2530"/>
+      <stop offset="1" stop-color="#38161e"/>
+    </linearGradient>
+    <linearGradient id="mscreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1e2a"/>
+      <stop offset="0.6" stop-color="#101018"/>
+      <stop offset="1" stop-color="#050508"/>
+    </linearGradient>
+    <linearGradient id="msheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.25" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="780" height="1040" fill="url(#mglow)"/>
+  <ellipse cx="390" cy="960" rx="200" ry="24" fill="#000" opacity="0.55"/>
+
+  <g transform="translate(255,430)">
+    <rect x="0" y="0" width="270" height="520" rx="50" fill="url(#mbody)"/>
+    <rect x="0" y="0" width="270" height="520" rx="50" fill="url(#msheen)"/>
+    <rect x="9" y="9" width="252" height="502" rx="43" fill="url(#mscreen)"/>
+    <rect x="98" y="24" width="74" height="22" rx="11" fill="#000"/>
+    <text x="135" y="230" text-anchor="middle" font-family="-apple-system,'PingFang SC',sans-serif" font-size="30" font-weight="600" fill="#f5f5f7">18 Pro</text>
+    <text x="135" y="266" text-anchor="middle" font-family="-apple-system,'PingFang SC',sans-serif" font-size="14" fill="#86868b">Pro 再超前</text>
+    <rect x="108" y="430" width="50" height="5" rx="2.5" fill="#2c2c31"/>
+  </g>
+</svg>

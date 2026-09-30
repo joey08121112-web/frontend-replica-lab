@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="沐光中枢主机正面示意">
+  <!-- 教学素材：内容示意，不构成站点配色或布局建议 -->
+  <rect x="0" y="0" width="600" height="600" fill="#F3F5F8"/>
+  <!-- 墙面分区线 -->
+  <line x1="0" y1="520" x2="600" y2="520" stroke="#C9CFD8" stroke-width="3"/>
+  <!-- 挂墙背板 -->
+  <rect x="150" y="90" width="300" height="400" rx="28" fill="#FFFFFF" stroke="#C9CFD8" stroke-width="3"/>
+  <!-- 主机机身 -->
+  <rect x="180" y="130" width="240" height="320" rx="22" fill="#3E4756"/>
+  <rect x="196" y="146" width="208" height="288" rx="16" fill="#4A5468"/>
+  <!-- 状态灯环 -->
+  <circle cx="300" cy="220" r="46" fill="#2E3646"/>
+  <circle cx="300" cy="220" r="34" fill="none" stroke="#F0A03C" stroke-width="10" stroke-linecap="round" stroke-dasharray="150 64"/>
+  <circle cx="300" cy="220" r="12" fill="#F0A03C"/>
+  <!-- 呼吸灯微光 -->
+  <circle cx="300" cy="220" r="58" fill="none" stroke="#F0A03C" stroke-width="3" opacity="0.35"/>
+  <!-- 状态行 -->
+  <rect x="230" y="300" width="140" height="10" rx="5" fill="#7A8494"/>
+  <rect x="252" y="322" width="96" height="10" rx="5" fill="#5A6373"/>
+  <!-- 散热格栅 -->
+  <g stroke="#5A6373" stroke-width="6" stroke-linecap="round">
+    <line x1="240" y1="392" x2="360" y2="392"/>
+    <line x1="240" y1="412" x2="360" y2="412"/>
+    <line x1="240" y1="432" x2="360" y2="432"/>
+  </g>
+  <!-- 底部出线 -->
+  <path d="M300 450 C300 490 300 500 300 520" stroke="#3E4756" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- 地面阴影 -->
+  <ellipse cx="300" cy="540" rx="130" ry="12" fill="#C9CFD8" opacity="0.6"/>
+</svg>

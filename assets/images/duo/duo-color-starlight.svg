@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="iPhone Duo rear panel in Starlight color, warm pale gold-white back with dual camera, flash and a plain circular logo ring">
+  <title>iPhone Duo — Starlight colorway, back view</title>
+  <defs>
+    <linearGradient id="sBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4efe3"/>
+      <stop offset="0.5" stop-color="#e8e0cd"/>
+      <stop offset="1" stop-color="#d6c9ab"/>
+    </linearGradient>
+    <linearGradient id="sSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sIsland" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0d6bf"/>
+      <stop offset="1" stop-color="#c9bda0"/>
+    </linearGradient>
+    <radialGradient id="sRing" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#a9b6cd"/>
+      <stop offset="0.55" stop-color="#6b7590"/>
+      <stop offset="1" stop-color="#48506a"/>
+    </radialGradient>
+    <radialGradient id="sGlass" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#55688c"/>
+      <stop offset="0.55" stop-color="#16202f"/>
+      <stop offset="1" stop-color="#04060c"/>
+    </radialGradient>
+    <radialGradient id="sFlash" cx="0.4" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#fbf7e6"/>
+      <stop offset="0.6" stop-color="#e6dab2"/>
+      <stop offset="1" stop-color="#c2b184"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="400" cy="928" rx="240" ry="22" fill="#8a7d5f" opacity="0.22"/>
+  <ellipse cx="400" cy="926" rx="180" ry="15" fill="#8a7d5f" opacity="0.16"/>
+
+  <!-- body depth -->
+  <rect x="197" y="95" width="420" height="824" rx="62" fill="#a89a7c"/>
+  <!-- back panel -->
+  <rect x="190" y="88" width="420" height="824" rx="62" fill="url(#sBody)" stroke="#b9ac8d" stroke-width="1.5"/>
+  <rect x="190" y="88" width="420" height="824" rx="62" fill="url(#sSheen)"/>
+
+  <!-- side buttons -->
+  <rect x="183" y="320" width="7" height="82" rx="3.5" fill="#cfc3a6" stroke="#b3a785" stroke-width="0.6"/>
+  <rect x="183" y="432" width="7" height="54" rx="3.5" fill="#cfc3a6" stroke="#b3a785" stroke-width="0.6"/>
+  <rect x="183" y="506" width="7" height="54" rx="3.5" fill="#cfc3a6" stroke="#b3a785" stroke-width="0.6"/>
+
+  <!-- camera island -->
+  <rect x="222" y="124" width="148" height="148" rx="44" fill="url(#sIsland)" stroke="#b0a486" stroke-width="1"/>
+  <rect x="228" y="130" width="136" height="136" rx="39" fill="none" stroke="#9c8f70" stroke-width="1" opacity="0.4"/>
+  <circle cx="270" cy="172" r="32" fill="url(#sRing)"/>
+  <circle cx="270" cy="172" r="24" fill="#101724"/>
+  <circle cx="270" cy="172" r="18" fill="url(#sGlass)"/>
+  <ellipse cx="262" cy="162" rx="6.5" ry="3.8" fill="#ffffff" opacity="0.45" transform="rotate(-25 262 162)"/>
+  <circle cx="322" cy="226" r="32" fill="url(#sRing)"/>
+  <circle cx="322" cy="226" r="24" fill="#101724"/>
+  <circle cx="322" cy="226" r="18" fill="url(#sGlass)"/>
+  <ellipse cx="314" cy="216" rx="6.5" ry="3.8" fill="#ffffff" opacity="0.45" transform="rotate(-25 314 216)"/>
+  <circle cx="326" cy="156" r="10" fill="url(#sFlash)"/>
+
+  <!-- neutral circular logo ring -->
+  <circle cx="400" cy="560" r="66" fill="none" stroke="#a89873" stroke-width="2" opacity="0.35"/>
+  <circle cx="400" cy="560" r="58" fill="none" stroke="#a89873" stroke-width="7" opacity="0.95"/>
+</svg>

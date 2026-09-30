@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Vector Trail cycling computer training data screen with power, heart rate, cadence, speed, ascent and time fields">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f9fa"/>
+      <stop offset="1" stop-color="#e3e6e9"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#353c44"/>
+      <stop offset="0.55" stop-color="#22272d"/>
+      <stop offset="1" stop-color="#13161a"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111519"/>
+      <stop offset="1" stop-color="#06080a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#0d1318"/>
+      <stop offset="1" stop-color="#070a0c"/>
+    </linearGradient>
+    <clipPath id="scr">
+      <rect x="62" y="46" width="676" height="408" rx="14"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g font-family="Arial, sans-serif">
+    <!-- device face -->
+    <rect x="36" y="20" width="728" height="460" rx="36" fill="url(#body)"/>
+    <rect x="37" y="21" width="726" height="458" rx="35" fill="none" stroke="#4e575f" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="52" y="36" width="696" height="428" rx="22" fill="url(#bezel)"/>
+    <rect x="62" y="46" width="676" height="408" rx="14" fill="url(#glass)"/>
+    <g clip-path="url(#scr)">
+      <rect x="62" y="46" width="676" height="408" fill="#0a0e11"/>
+      <!-- header -->
+      <text x="80" y="80" font-size="15" font-weight="bold" letter-spacing="2" fill="#f2f5f7">TRAINING</text>
+      <rect x="560" y="76" width="5" height="6" fill="#71d144"/>
+      <rect x="567" y="73" width="5" height="9" fill="#71d144"/>
+      <rect x="574" y="70" width="5" height="12" fill="#71d144"/>
+      <rect x="581" y="67" width="5" height="15" fill="#71d144"/>
+      <text x="593" y="81" font-size="10.5" fill="#71d144">GPS</text>
+      <rect x="664" y="62" width="38" height="15" rx="3" fill="none" stroke="#8a949c" stroke-width="1.5"/>
+      <rect x="667" y="65" width="27" height="9" fill="#71d144"/>
+      <rect x="703.5" y="65.5" width="3" height="8" rx="1" fill="#8a949c"/>
+      <rect x="62" y="96" width="676" height="1.2" fill="#1c232a"/>
+      <!-- tile grid 2x3 -->
+      <!-- row 1: SPD -->
+      <rect x="78" y="106" width="316" height="105" rx="12" fill="#11171c" stroke="#1e262d" stroke-width="1"/>
+      <text x="96" y="134" font-size="11" letter-spacing="1.5" fill="#8a949c">SPD</text>
+      <text x="96" y="180" font-size="40" font-weight="bold" fill="#f2f5f7">34.6</text>
+      <text x="186" y="180" font-size="13" fill="#8a949c">KM/H</text>
+      <polyline points="252,164 268,156 284,161 300,150 316,156 332,146 348,153 364,143 378,150" fill="none" stroke="#3cc8f5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- row 1: HR -->
+      <rect x="406" y="106" width="316" height="105" rx="12" fill="#11171c" stroke="#1e262d" stroke-width="1"/>
+      <text x="424" y="134" font-size="11" letter-spacing="1.5" fill="#8a949c">HR</text>
+      <text x="424" y="180" font-size="40" font-weight="bold" fill="#ff4b3e">152</text>
+      <text x="500" y="180" font-size="13" fill="#8a949c">BPM</text>
+      <polyline points="596,162 612,162 620,146 630,172 638,152 646,162 700,162" fill="none" stroke="#ff4b3e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- row 2: PWR -->
+      <rect x="78" y="221" width="316" height="105" rx="12" fill="#11171c" stroke="#1e262d" stroke-width="1"/>
+      <text x="96" y="249" font-size="11" letter-spacing="1.5" fill="#8a949c">PWR</text>
+      <text x="96" y="295" font-size="40" font-weight="bold" fill="#f2f5f7">248</text>
+      <text x="172" y="295" font-size="13" fill="#8a949c">W</text>
+      <g>
+        <rect x="96" y="311" width="14" height="10" rx="2" fill="#ff9a2e"/>
+        <rect x="114" y="311" width="14" height="10" rx="2" fill="#ff9a2e"/>
+        <rect x="132" y="311" width="14" height="10" rx="2" fill="#ff9a2e"/>
+        <rect x="150" y="311" width="14" height="10" rx="2" fill="#ff9a2e"/>
+        <rect x="168" y="311" width="14" height="10" rx="2" fill="#ff9a2e"/>
+        <rect x="186" y="311" width="14" height="10" rx="2" fill="#ff9a2e"/>
+        <rect x="204" y="311" width="14" height="10" rx="2" fill="#262e35"/>
+        <rect x="222" y="311" width="14" height="10" rx="2" fill="#262e35"/>
+        <rect x="240" y="311" width="14" height="10" rx="2" fill="#262e35"/>
+        <rect x="258" y="311" width="14" height="10" rx="2" fill="#262e35"/>
+      </g>
+      <!-- row 2: CAD -->
+      <rect x="406" y="221" width="316" height="105" rx="12" fill="#11171c" stroke="#1e262d" stroke-width="1"/>
+      <text x="424" y="249" font-size="11" letter-spacing="1.5" fill="#8a949c">CAD</text>
+      <text x="424" y="295" font-size="40" font-weight="bold" fill="#f2f5f7">88</text>
+      <text x="478" y="295" font-size="13" fill="#8a949c">RPM</text>
+      <circle cx="650" cy="286" r="24" fill="none" stroke="#2c3742" stroke-width="9"/>
+      <line x1="650" y1="286" x2="667" y2="269" stroke="#556370" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="650" cy="286" r="3.5" fill="#8a949c"/>
+      <!-- row 3: ASC -->
+      <rect x="78" y="336" width="316" height="105" rx="12" fill="#11171c" stroke="#1e262d" stroke-width="1"/>
+      <text x="96" y="364" font-size="11" letter-spacing="1.5" fill="#8a949c">ASC</text>
+      <text x="96" y="410" font-size="40" font-weight="bold" fill="#f2f5f7">612</text>
+      <text x="172" y="410" font-size="13" fill="#8a949c">M</text>
+      <polyline points="252,424 280,382 296,404 312,380 344,424" fill="none" stroke="#71d144" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- row 3: TIME -->
+      <rect x="406" y="336" width="316" height="105" rx="12" fill="#11171c" stroke="#1e262d" stroke-width="1"/>
+      <text x="424" y="364" font-size="11" letter-spacing="1.5" fill="#8a949c">TIME</text>
+      <text x="424" y="410" font-size="30" font-weight="bold" fill="#f2f5f7">1:47:22</text>
+      <circle cx="662" cy="398" r="17" fill="none" stroke="#2c3742" stroke-width="5"/>
+      <line x1="662" y1="398" x2="673" y2="385" stroke="#8a949c" stroke-width="3" stroke-linecap="round"/>
+      <rect x="657" y="374" width="10" height="6" rx="2" fill="#2c3742"/>
+      <!-- faint glass sheen -->
+      <path d="M62,46 L210,46 L128,454 L62,454 Z" fill="#ffffff" opacity="0.02"/>
+    </g>
+  </g>
+</svg>

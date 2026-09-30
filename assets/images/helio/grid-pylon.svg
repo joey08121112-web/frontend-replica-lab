@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="输电塔示意（电网侧）">
+  <!-- 教学素材：内容示意，不构成站点配色或布局建议 -->
+  <rect x="0" y="0" width="600" height="600" fill="#F3F5F8"/>
+  <line x1="0" y1="540" x2="600" y2="540" stroke="#C9CFD8" stroke-width="3"/>
+  <!-- 拉线 -->
+  <g stroke="#7A8494" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M110 540 L240 130 L370 540"/>
+    <line x1="182" y1="320" x2="298" y2="320"/>
+    <line x1="160" y1="400" x2="320" y2="400"/>
+    <line x1="140" y1="470" x2="340" y2="470"/>
+    <!-- 横担 -->
+    <path d="M120 190 L360 190"/>
+    <path d="M150 190 L240 130 L330 190"/>
+    <path d="M170 250 L310 250"/>
+  </g>
+  <!-- 绝缘子 -->
+  <g fill="#3E4756">
+    <rect x="128" y="190" width="10" height="24" rx="4"/>
+    <rect x="235" y="130" width="10" height="24" rx="4"/>
+    <rect x="342" y="190" width="10" height="24" rx="4"/>
+    <rect x="178" y="250" width="10" height="24" rx="4"/>
+    <rect x="292" y="250" width="10" height="24" rx="4"/>
+  </g>
+  <!-- 电线 -->
+  <g stroke="#3E4756" stroke-width="4" fill="none">
+    <path d="M0 240 C60 260 90 250 128 216"/>
+    <path d="M352 216 C420 250 480 258 600 236"/>
+    <path d="M0 330 C90 344 160 330 188 276"/>
+    <path d="M292 276 C340 330 460 344 600 328"/>
+  </g>
+  <!-- 地面阴影 -->
+  <ellipse cx="240" cy="556" rx="180" ry="12" fill="#C9CFD8" opacity="0.5"/>
+</svg>
