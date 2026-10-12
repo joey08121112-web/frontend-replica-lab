@@ -41,3 +41,7 @@ python3 -m http.server 8000
 - 课程素材（`assets/`）全部为**原创占位素材**（SVG），不含任何 Apple 官方图片
 - 本公开版按版权要求**未收录** Apple 官网参考截图；课程中相应环节会引导你**前往 Apple 官网观察真实页面**——这本来就是该环节的教学意图
 - 本项目为个人学习用途，与 Apple Inc. 无任何关联；「iPhone」「Apple」名称仅用于指称其公开网页
+
+## 完整源码
+
+本站为课程的可运行展示版；完整课程源码（含教案内容源与开发历史）见 [frontend-replica-course](https://github.com/joey08121112-web/frontend-replica-course)。
